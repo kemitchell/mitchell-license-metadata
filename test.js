@@ -3,6 +3,8 @@ var data = require('./index.json')
 var licenses = data.licenses
 var tags = data.tags
 
+var LICENSE_PROPERTIES = ['id', 'related', 'steward', 'tags']
+
 licenses.forEach(function (license) {
   license.tags.forEach(function (tag) {
     assert(
@@ -40,7 +42,17 @@ licenses.forEach(function (license) {
       )
     })
   }
+
+  Object.keys(license).forEach(function (key) {
+    assert(
+      LICENSE_PROPERTIES.indexOf(key) !== -1,
+      '"' + license.id + '" has extra property ' +
+      '"' + key + '"'
+    )
+  })
 })
+
+var TAG_PROPERTIES = ['meaning', 'related']
 
 Object.keys(tags).forEach(function (tag) {
   var data = tags[tag]
@@ -61,4 +73,12 @@ Object.keys(tags).forEach(function (tag) {
       )
     })
   }
+
+  Object.keys(data).forEach(function (key) {
+    assert(
+      TAG_PROPERTIES.indexOf(key) !== -1,
+      '"' + tag + '" has extra property ' +
+      '"' + key + '"'
+    )
+  })
 })
