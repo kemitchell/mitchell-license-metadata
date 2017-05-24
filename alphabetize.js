@@ -10,6 +10,9 @@ data.licenses.forEach(function (license) {
   if (license.tags) {
     license.tags.sort()
   }
+  if (license.related) {
+    license.related.sort()
+  }
   if (license.projects) {
     license.projects.sort()
   }

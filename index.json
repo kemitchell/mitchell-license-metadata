@@ -128,8 +128,8 @@
     {
       "id": "BSD-2-Clause",
       "related": [
-        "BSD-3-Clause",
-        "0BSD"
+        "0BSD",
+        "BSD-3-Clause"
       ],
       "tags": [
         "permissive",
@@ -139,8 +139,8 @@
     {
       "id": "BSD-3-Clause",
       "related": [
-        "BSD-2-Clause",
-        "0BSD"
+        "0BSD",
+        "BSD-2-Clause"
       ],
       "tags": [
         "permissive",
