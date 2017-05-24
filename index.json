@@ -1,0 +1,455 @@
+{
+  "licenses": [
+    {
+      "id": "0BSD",
+      "related": [
+        "BSD-2-Clause",
+        "BSD-3-Clause"
+      ],
+      "tags": [
+        "permissive",
+        "template",
+        "unclear-patent-scope"
+      ]
+    },
+    {
+      "id": "AFL-1.1",
+      "steward": "Lawrence Rosen",
+      "tags": [
+        "clear-patent-license",
+        "patent-termination",
+        "permissive",
+        "provenance-warranty",
+        "superseded"
+      ]
+    },
+    {
+      "id": "AFL-1.2",
+      "steward": "Lawrence Rosen",
+      "tags": [
+        "clear-patent-license",
+        "patent-termination",
+        "permissive",
+        "provenance-warranty",
+        "superseded"
+      ]
+    },
+    {
+      "id": "AFL-2.0",
+      "steward": "Lawrence Rosen",
+      "tags": [
+        "clear-patent-license",
+        "patent-termination",
+        "permissive",
+        "provenance-warranty",
+        "superseded"
+      ]
+    },
+    {
+      "id": "AFL-2.1",
+      "steward": "Lawrence Rosen",
+      "tags": [
+        "clear-patent-license",
+        "patent-termination",
+        "permissive",
+        "provenance-warranty",
+        "superseded"
+      ]
+    },
+    {
+      "id": "AFL-3.0",
+      "steward": "Lawrence Rosen",
+      "tags": [
+        "clear-patent-license",
+        "patent-termination",
+        "permissive",
+        "provenance-warranty"
+      ]
+    },
+    {
+      "id": "AGPL-3.0",
+      "related": [
+        "GPL-3.0"
+      ],
+      "steward": "Free Software Foundation",
+      "tags": [
+        "closed-asp-loophole",
+        "copyleft"
+      ]
+    },
+    {
+      "id": "Apache-1.0",
+      "steward": "Apache Foundation",
+      "tags": [
+        "permissive",
+        "superseded",
+        "unclear-patent-scope"
+      ]
+    },
+    {
+      "id": "Apache-1.1",
+      "steward": "Apache Foundation",
+      "tags": [
+        "clear-patent-license",
+        "permissive",
+        "superseded"
+      ]
+    },
+    {
+      "id": "Apache-2.0",
+      "steward": "Apache Foundation",
+      "tags": [
+        "clear-patent-license",
+        "contribution-terms",
+        "permissive"
+      ]
+    },
+    {
+      "id": "Artistic-1.0",
+      "tags": [
+        "amateur-style",
+        "fixed",
+        "permissive",
+        "unclear-patent-scope"
+      ]
+    },
+    {
+      "id": "Artistic-2.0",
+      "steward": "Perl Foundation",
+      "tags": [
+        "clear-patent-license",
+        "different-name",
+        "fixed",
+        "list-changes",
+        "permissive",
+        "trademark-clarification"
+      ]
+    },
+    {
+      "id": "BSD-2-Clause",
+      "related": [
+        "BSD-3-Clause",
+        "0BSD"
+      ],
+      "tags": [
+        "permissive",
+        "unclear-patent-scope"
+      ]
+    },
+    {
+      "id": "BSD-3-Clause",
+      "related": [
+        "BSD-2-Clause",
+        "0BSD"
+      ],
+      "tags": [
+        "permissive",
+        "unclear-patent-scope",
+        "use-of-names-clarification"
+      ]
+    },
+    {
+      "id": "EPL-1.0",
+      "steward": "Eclipse Foundation",
+      "tags": [
+        "clear-patent-license",
+        "copyleft",
+        "lawyer-style",
+        "weak-copyleft"
+      ]
+    },
+    {
+      "id": "Fair",
+      "tags": [
+        "permissive",
+        "template",
+        "vague"
+      ]
+    },
+    {
+      "id": "GPL-1.0",
+      "related": [
+        "GPL-2.0",
+        "GPL-3.0"
+      ],
+      "steward": "Free Software Foundation",
+      "tags": [
+        "copyleft",
+        "strong-copyleft",
+        "superseded",
+        "unclear-patent-scope"
+      ]
+    },
+    {
+      "id": "GPL-2.0",
+      "related": [
+        "GPL-1.0",
+        "GPL-3.0"
+      ],
+      "steward": "Free Software Foundation",
+      "tags": [
+        "clear-patent-license",
+        "copyleft",
+        "strong-copyleft",
+        "superseded"
+      ]
+    },
+    {
+      "id": "GPL-3.0",
+      "related": [
+        "GPL-1.0",
+        "GPL-2.0"
+      ],
+      "steward": "Free Software Foundation",
+      "tags": [
+        "clear-patent-license",
+        "copyleft",
+        "strong-copyleft"
+      ]
+    },
+    {
+      "id": "LGPL-2.1",
+      "related": [
+        "LGPL-3.0"
+      ],
+      "steward": "Free Software Foundation",
+      "tags": [
+        "copyleft",
+        "superseded",
+        "weak-copyleft"
+      ]
+    },
+    {
+      "id": "LGPL-3.0",
+      "related": [
+        "LGPL-2.1"
+      ],
+      "steward": "Free Software Foundation",
+      "tags": [
+        "copyleft",
+        "weak-copyleft"
+      ]
+    },
+    {
+      "id": "MIT",
+      "tags": [
+        "permissive",
+        "template",
+        "unclear-patent-scope"
+      ]
+    },
+    {
+      "id": "MPL-1.0",
+      "related": [
+        "MPL-1.1",
+        "MPL-2.0"
+      ],
+      "steward": "Mozilla Foundation",
+      "tags": [
+      ]
+    },
+    {
+      "id": "MPL-1.1",
+      "related": [
+        "MPL-1.0",
+        "MPL-2.0"
+      ],
+      "steward": "Mozilla Foundation",
+      "tags": [
+      ]
+    },
+    {
+      "id": "MPL-2.0",
+      "related": [
+        "MPL-1.0",
+        "MPL-1.1"
+      ],
+      "steward": "Mozilla Foundation",
+      "tags": [
+        "lawyer-style",
+        "weak-copyleft"
+      ]
+    },
+    {
+      "id": "OSL-1.0",
+      "steward": "Lawrence Rosen",
+      "tags": [
+        "closed-asp-loophole",
+        "copyleft",
+        "provenance-warranty",
+        "superseded"
+      ]
+    },
+    {
+      "id": "OSL-1.1",
+      "steward": "Lawrence Rosen",
+      "tags": [
+        "closed-asp-loophole",
+        "copyleft",
+        "provenance-warranty",
+        "superseded"
+      ]
+    },
+    {
+      "id": "OSL-2.0",
+      "steward": "Lawrence Rosen",
+      "tags": [
+        "closed-asp-loophole",
+        "copyleft",
+        "provenance-warranty",
+        "superseded"
+      ]
+    },
+    {
+      "id": "OSL-2.1",
+      "steward": "Lawrence Rosen",
+      "tags": [
+        "closed-asp-loophole",
+        "copyleft",
+        "provenance-warranty",
+        "superseded"
+      ]
+    },
+    {
+      "id": "OSL-3.0",
+      "steward": "Lawrence Rosen",
+      "tags": [
+        "closed-asp-loophole",
+        "copyleft",
+        "provenance-warranty"
+      ]
+    },
+    {
+      "id": "Unlicense",
+      "steward": "unlicense.org",
+      "tags": [
+        "academic-style",
+        "permissive",
+        "public-domain-dedication"
+      ]
+    },
+    {
+      "id": "WTFPL",
+      "steward": "Sam Hocevar",
+      "tags": [
+        "unclear-patent-scope",
+        "vague"
+      ]
+    }
+  ],
+  "tags": {
+    "academic-style": {
+      "meaning": "The license is written in a style that uses legal terminology, but attempts to be as short as possible.",
+      "related": [
+        "amateur-style",
+        "lawyer-style",
+        "vague"
+      ]
+    },
+    "amateur-style": {
+      "meaning": "License was written in a vague or informal style.",
+      "related": [
+        "academic-style",
+        "lawyer-style",
+        "vague"
+      ]
+    },
+    "clear-patent-license": {
+      "meaning": "The license explicitly licenses patents.",
+      "related": [
+        "unclear-patent-scope"
+      ]
+    },
+    "closed-asp-loophole": {
+      "meaning": "Copyleft license conditions can be triggered by provision of the software as a service.",
+      "related": [
+        "open-asp-loophole"
+      ]
+    },
+    "contribution-terms": {
+      "meaning": "License includes language about licensing of contributions."
+    },
+    "copyleft": {
+      "meaning": "The license imposes source code access or derivative license term conditions.",
+      "related": [
+        "permissive"
+      ]
+    },
+    "different-name": {
+      "meaning": "Derivatives must use a different name."
+    },
+    "fixed": {
+      "meaning": "The license is published as a fixed text, without blanks for licensors to fill in.",
+      "related": [
+        "template"
+      ]
+    },
+    "lawyer-style": {
+      "meaning": "License was written in a style familiar to professional licensing lawyers.",
+      "related": [
+        "academic-style",
+        "amateur-style",
+        "vague"
+      ]
+    },
+    "list-changes": {
+      "meaning": "The license requires listing of changes of derivatives."
+    },
+    "open-asp-loophole": {
+      "meaning": "Copyleft license conditions are not triggered by provision of the software as a service.",
+      "related": [
+        "closed-asp-loophole"
+      ]
+    },
+    "patent-termination": {
+      "meaning": "Rights under the license terminate if a licensee sues under a patent."
+    },
+    "permissive": {
+      "meaning": "The license does not impose source code access or derivative license term conditions.",
+      "related": [
+        "copyleft"
+      ]
+    },
+    "provenance-warranty": {
+      "meaning": "The license has a warranty about the provenance of the licensed software from the licensors."
+    },
+    "public-domain-dedication": {
+      "meaning": "The license attempts to dedicate rights to the public domain."
+    },
+    "strong-copyleft": {
+      "meaning": "Copyleft conditions are triggered in relatively many use cases."
+    },
+    "superseded": {
+      "meaning": "The publisher of the license has published a newer version."
+    },
+    "template": {
+      "meaning": "The license is published as a form, with blanks for licensors to fill in.",
+      "related": [
+        "fixed"
+      ]
+    },
+    "trademark-clarification": {
+      "meaning": "The license explicitly says there is no trademark license."
+    },
+    "unclear-patent-scope": {
+      "meaning": "It is not clear whether the license grants a patent license, and if so, for what patents.",
+      "related": [
+        "clear-patent-license"
+      ]
+    },
+    "use-of-names-clarification": {
+      "meaning": "The license explicitly says licensees may not use licensor or contributor names."
+    },
+    "vague": {
+      "meaning": "License is so sparse or indefinite that it's hard to know what to make of it.",
+      "related": [
+        "academic-style",
+        "amateur-style",
+        "lawyer-style"
+      ]
+    },
+    "weak-copyleft": {
+      "meaning": "Copyleft conditions are triggered in relatively few use cases."
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "mitchell-license-metadata",
+  "version": "0.0.0",
+  "description": "data about specific open source licenses",
+  "author": "Kyle E. Mitchell <kyle@kemitchell.com> (https://kemitchell.com/)",
+  "repository": "kemitchell/mitchell-license-metadata",
+  "files": [
+    "index.json"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "devDependencies": {
+    "json-stable-stringify": "^1.0.1"
+  }
+}
