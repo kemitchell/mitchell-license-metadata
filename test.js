@@ -3,7 +3,9 @@ var data = require('./index.json')
 var licenses = data.licenses
 var tags = data.tags
 
-var LICENSE_PROPERTIES = ['id', 'related', 'steward', 'tags']
+var LICENSE_PROPERTIES = [
+  'id', 'related', 'steward', 'tags', 'projects'
+]
 
 licenses.forEach(function (license) {
   license.tags.forEach(function (tag) {
@@ -20,6 +22,20 @@ licenses.forEach(function (license) {
       '"' + license.id + '"\'s steward property ' +
       'is not a string'
     )
+  }
+  if (license.projects) {
+    assert(
+      Array.isArray(license.projects),
+      '"' + license.id + '"\'s projects property ' +
+      'is not an array'
+    )
+    license.projects.forEach(function (project) {
+      assert.equal(
+        typeof project, 'string',
+        '"' + license.id + '"\'s project ' +
+        'is not a string'
+      )
+    })
   }
   if (license.related) {
     assert(

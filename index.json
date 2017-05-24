@@ -168,6 +168,9 @@
     },
     {
       "id": "GPL-1.0",
+      "projects": [
+        "Linux Kernel"
+      ],
       "related": [
         "GPL-2.0",
         "GPL-3.0"
