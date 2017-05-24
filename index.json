@@ -372,7 +372,9 @@
     "copyleft": {
       "meaning": "The license imposes source code access or derivative license term conditions.",
       "related": [
-        "permissive"
+        "permissive",
+        "strong-copyleft",
+        "weak-copyleft"
       ]
     },
     "different-name": {
@@ -417,7 +419,12 @@
       "meaning": "The license attempts to dedicate rights to the public domain."
     },
     "strong-copyleft": {
-      "meaning": "Copyleft conditions are triggered in relatively many use cases."
+      "meaning": "Copyleft conditions are triggered in relatively many use cases.",
+      "related": [
+        "closed-asp-loophole",
+        "copyleft",
+        "weak-copyleft"
+      ]
     },
     "superseded": {
       "meaning": "The publisher of the license has published a newer version."
@@ -449,7 +456,12 @@
       ]
     },
     "weak-copyleft": {
-      "meaning": "Copyleft conditions are triggered in relatively few use cases."
+      "meaning": "Copyleft conditions are triggered in relatively few use cases.",
+      "related": [
+        "copyleft",
+        "open-asp-loophole",
+        "strong-copyleft"
+      ]
     }
   }
 }
