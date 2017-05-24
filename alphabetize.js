@@ -25,4 +25,4 @@ Object.keys(data.tags).forEach(function (tag) {
   }
 })
 
-fs.writeFileSync('./index.json', stringify(data, {space: 2}))
+fs.writeFileSync('./index.json', stringify(data, {space: 2}) + '\n')
